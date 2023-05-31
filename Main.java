@@ -5,7 +5,8 @@ package andrV2021;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map ;
+import java.util.Map;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -53,7 +54,7 @@ public class Main {
 
 //Проверка почтового ящика
         assert mailBox.get("H.P. Lovecraft").equals(
-                Arrays.asList(
+                List.of(
                         "This \"The Shadow over Innsmouth\" story is real masterpiece, Howard!"
                 )
         ): "wrong mailService mailbox content (1)";
